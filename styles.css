@@ -1,0 +1,408 @@
+/* Reset underlines on anchor links */
+a {
+  text-decoration: none;
+}
+
+/* Styling for the Header Section */
+
+/* Styling for the Footer Section */
+footer {
+  background-color: #a4f1f5;
+  color: #18015c;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.footer-logo {
+  flex: 1;
+}
+
+.footer-logo img {
+  width: 100px;
+  height: auto;
+}
+
+.footer-info {
+  flex: 2;
+  text-align: right;
+}
+
+.footer-info p {
+  margin: 0px 0;
+  font-size: 14px;
+}
+.footer-social {
+    text-align: center;
+  }
+  
+  .footer-social a {
+    margin: 0 10px;
+  }
+  
+  .footer-social a svg {
+    width: 21px;
+    height: 21px;
+  }
+/* Add any additional styling for the footer as needed */
+
+/* Styling for the navigation menu and logo */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fcfcfc;
+}
+
+/* Styling for the Navigation Menu */
+/* Styling for the Navigation Menu */
+.nav-menu {
+  background-color: #fff; /* White background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for shading */
+  color: #333; /* Text color */
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-menu ul li {
+  margin-right:  60px;
+}
+
+.nav-menu ul li:last-child {
+  margin-right: 5px;
+}
+
+.nav-menu .logo {
+  /* No need to set 'flex: 1;' here, the logo will take available space */
+}
+
+.nav-menu .search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu .search-bar input[type="text"] {
+  width: 250px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.nav-menu .search-bar button[type="button"] {
+  padding: 15px 15px;
+  background-color: #0f3f04;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+}
+
+/* Highlighting on hover */
+.nav-menu ul li a {
+  text-decoration: none;
+  color: #0b0136; /* Initial text color */
+  transition: color 0.5s ease; /* Smooth transition effect */
+}
+
+.nav-menu ul li a:hover {
+  color: #007bff; /* Highlighted text color on hover */
+  cursor: pointer;
+}
+
+/* Click animation */
+.nav-menu ul li a:active {
+  color: #ff6c00; /* Clicked text color */
+  transition: color 0.1s ease; /* Smooth transition effect */
+}
+
+/* Rest of your existing CSS code */
+
+/* Styling for the Home Section */
+.section {
+    padding: 50px;
+    background: linear-gradient(90deg, #ec3b05, #30e103); /* Background gradient */
+    color: #fff;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6c00;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #007bff;
+}
+
+/* Styling for the Service Cards */
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.service {
+    text-align: center;
+    margin: 0 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.service .icon img {
+    width: 80px;
+    height: 80px;
+}
+
+.service h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.service p {
+    font-size: 16px;
+}
+
+/* Styling for the CTA buttons */
+.cta-buttons {
+  text-align: center;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  margin: 10px;
+}
+
+.cta-button:hover {
+  background-color: #555;
+}
+
+/* Styling for the About Us section */
+.about-content {
+  text-align: center;
+  padding: 40px;
+}
+
+.about-content h2 {
+  font-size: 24px;
+  color: #fcfcfc;
+}
+
+.about-content p {
+  font-size: 16px;
+  color: #f9f9f9;
+  margin-bottom: 20px;
+}
+
+/* Styling for the CTA buttons */
+.cta-buttons {
+  text-align: center;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  margin: 10px;
+}
+
+.cta-button:hover {
+  background-color: #555555;
+}
+
+/* Styling for the Portfolio section */
+.portfolio-content {
+  text-align: center;
+  padding: 40px;
+}
+
+.portfolio-content h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.portfolio-content p {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+/* Styling for the CTA buttons */
+.cta-buttons {
+  text-align: center;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  margin: 10px;
+}
+
+.cta-button:hover {
+  background-color: #555;
+}
+
+/* Styling for the Blog section */
+.blog-content {
+  text-align: center;
+  padding: 40px;
+}
+
+.blog-content h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.blog-content p {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+/* Styling for the CTA buttons */
+.cta-buttons {
+  text-align: center;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  margin: 10px;
+}
+
+.cta-button:hover {
+  background-color: #555;
+}
+
+/* Styling for the Contact Us Section */
+.section {
+    padding: 50px;
+    background: linear-gradient(90deg, #f54505, #03e512);
+    color: #fff;
+    text-align: center;
+}
+
+.contact-content h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.contact-content p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.contact-form form {
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.contact-form button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff6c00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #007bff;
+}
+
+.contact-info h3 {
+    font-size: 24px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.icon-link {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.icon-link img {
+    width: 30px;
+    height: 30px;
+}
